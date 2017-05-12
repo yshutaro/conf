@@ -6,14 +6,17 @@ NeoBundle 'scrooloose/syntastic'
 NeoBundle 'plasticboy/vim-markdown'
 NeoBundle 'kannokanno/previm'
 NeoBundle 'tyru/open-browser.vim'
+NeoBundle 'dracula/vim'
 
 " scala用syntax highlight
 NeoBundle 'derekwyatt/vim-scala'
 
 au BufRead,BufNewFile *.md set filetype=markdown
-"au BufRead,BufNewFile *.scala set filetype=scala
+au BufRead,BufNewFile *.scala set filetype=scala
 
 call neobundle#end()
+
+colorscheme dracula
 
 set nocompatible
 
