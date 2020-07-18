@@ -1,8 +1,9 @@
-"colorscheme dracula
+packadd! dracula
+syntax enable
+colorscheme dracula
 
 set nocompatible
 
-syntax enable
 set expandtab
 
 set number
